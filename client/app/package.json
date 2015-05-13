@@ -1,0 +1,23 @@
+{
+  "name": "sddug",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "jquery": "^1.11.2",
+    "backbone": "^1.1.2",
+    "backbone.localstorage": "^1.1.16",
+    "backbone.marionette": "^2.4.1",
+    "grunt": "~0.4.0",
+    "grunt-contrib-compass": "~0.2.0",
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.3",
+    "grunt-shell": "~0.3.1",
+    "todomvc-common": "^1.0.1",
+    "todomvc-app-css": "^1.0.1",
+    "underscore": "^1.8.3"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}

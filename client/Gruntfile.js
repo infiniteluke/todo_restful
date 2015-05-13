@@ -401,7 +401,7 @@ module.exports = function (grunt) {
         constants: {
           ENV: {
             name: 'development',
-            apiEndpoint: 'http://localhost/todo_restful/www'
+            apiEndpoint: 'http://todo-restful/'
           }
         }
       },
