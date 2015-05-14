@@ -4,7 +4,8 @@
 
 ## Live demo
 
-Still need to set this up for this example...
+* [App demo](http://infiniteluke.github.io/todo_restful/)
+* [Drupal Backend](http://live-todo-restful.pantheon.io/) (Same backend as other examples.)
 
 To test it locally:
 
