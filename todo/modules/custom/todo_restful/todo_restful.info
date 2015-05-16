@@ -1,4 +1,0 @@
-name = ToDo RESTFul
-core = 7.x
-dependencies[] = restful
-dependencies[] = entity_validator
