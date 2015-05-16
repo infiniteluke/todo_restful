@@ -55,7 +55,7 @@ TodoMVC.module('Todos', function (Todos, App, Backbone) {
 	Todos.TodoList = Backbone.Collection.extend({
 		model: Todos.Todo,
 
-		url: ENV+'api/todos',
+		url: 'http://todo-restful/api/v1.0/todos/',
 		// Drupal sends models buried inside data
 		parse: function(response) {
 			return response.data;

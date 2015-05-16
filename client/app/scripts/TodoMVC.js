@@ -9,7 +9,6 @@ var App = Backbone.Marionette.Application.extend({
   }
 });
 
-window.ENV = 'http://live-todo-restful.pantheon.io/';
 window.TodoMVC = new App();
 
 (function () {
