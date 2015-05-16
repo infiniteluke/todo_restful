@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/Gizra/todo_restful.svg)](https://travis-ci.org/Gizra/todo_restful)
-
-# TodoMVC adaptation to Drupal's RESTful
+# TodoMVC Backbone.Marionette adaptation to Drupal's RESTful
 
 ## Live demo
 
