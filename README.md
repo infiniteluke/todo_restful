@@ -1,5 +1,7 @@
 # TodoMVC Backbone.Marionette adaptation to Drupal's RESTful
 
+See the blog post about [what it took to port this to Backbone Marionette](http://www.gizra.com/content/restful-backbone-marionette/)
+
 ## Live demo
 
 * [App demo](http://infiniteluke.github.io/todo_restful/)
