@@ -9,30 +9,18 @@ TodoMVC.module('Todos', function (Todos, App, Backbone) {
 			title: '',
 			completed: false,
 		},
-		// These won't be sent back to server when saving.
-		blacklist: ['id', 'self'],
+		
 		parse: function(response) {
 			if (response.data) {
 				return response.data[0];
 			}
 			return response;
 		},
-		// Overwrite save function to omit attributes that can't be received by Drupal
-		save: function(attrs, options) {
-			options || (options = {});
-			attrs || (attrs = _.clone(this.attributes));
 
-			// Omit blacklist
-			attrs = _.omit(this.attributes, this.blacklist);
-
-			options.data = JSON.stringify(attrs);
-
-			// Proxy the call to the original save function
-			Backbone.Model.prototype.save.call(this, attrs, options);
-		},
 		toggle: function () {
 			return this.set('completed', !this.isCompleted());
 		},
+
 		isCompleted: function () {
 			return this.get('completed');
 		},
