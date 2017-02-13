@@ -156,7 +156,8 @@ module.exports = function (grunt) {
             '*.html',
             'css/*',
             'scripts/*',
-            'node_modules/**'
+            'node_modules/**',
+            '.nojekyll'
           ]
         }]
       },
